@@ -22,7 +22,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 
 
-app.get("/index.html", function (req, res) {
+app.get("/", function (req, res) {
     res.send("Hello World, This is Working");
 
 })
