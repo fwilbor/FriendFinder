@@ -61,7 +61,7 @@ module.exports = function (app) {
         console.log(userData);
         res.json(bestMatch);
     });
-}
+};
 
 
 
